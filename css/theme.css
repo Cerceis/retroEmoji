@@ -1,0 +1,26 @@
+/* Basic Light */
+[data-theme="light"] {
+	--root: #ffffff;
+	--bg: #f3f3f3;
+	--text: #000000;
+	--primary: rgba(245, 218, 220);
+	--secondary: rgba(100, 99, 100);
+	--accent: #F2B880;
+	--success: #03c03c;
+	--error: #ff6961;
+	--warning: #FFB449;
+	--activate: #9e9e9e;
+}
+/* Basic Dark */
+[data-theme="dark"] {
+	--root: #000000;
+	--bg: #373737;
+	--text: #ffffff;
+	--primary: #779ecb;
+	--secondary: #C98686;
+	--accent: #F2B880;
+	--success: #03c03c;
+	--error: #ff6961;
+	--warning: #FFB449;
+	--activate: #9e9e9e;
+}

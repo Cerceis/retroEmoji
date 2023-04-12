@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(86, 74, 77);
+    background: white;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.primary{
+    background: rgba(245, 218, 220);
+}
+.secondary{
+    background: rgba(100, 99, 100);
+    color: white;
+}
+
+.emojiSection{
+    display: grid;   
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+    gap: .5em;
+}
+
+.emojiContainer{
+    margin-top: .5em;
+    background: var(--primary);
+    padding: .5em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.emojiContainer:active{
+    filter: brightness(150%);
+}
+
+hr{
+    color: var(--text) !important;
+    background: var(--text) !important;
+    height: 3px !important;
+}
