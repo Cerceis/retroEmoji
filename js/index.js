@@ -8,6 +8,7 @@ const emojiList = [
         category: "Uncategorized",
         categoryJpn: "その他",
         emoji:[
+            "(*`･ω･)ゞ",
             "(๑•́ ₃ •̀๑)", 
             "(☉д☉)",
             "(ŏ_ŏ)",
